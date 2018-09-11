@@ -10,7 +10,7 @@ using PoorChild.Web.Models;
 namespace PoorChild.Web
 {
     using System.Data.Entity.Migrations;
-
+     
     using PoorChild.Web.Context;
      
     /// <summary>
