@@ -19,7 +19,7 @@ namespace PoorChild.Web
     public class WebApiApplication : System.Web.HttpApplication
     {
         /// <summary>
-        /// The application_ start.
+        /// The application_ start2.
         /// </summary>
         protected void Application_Start()
         {
