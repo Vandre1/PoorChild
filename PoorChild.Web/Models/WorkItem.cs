@@ -53,11 +53,11 @@
         /// <summary>
         /// Gets or sets the photos.
         /// </summary>
-        public ICollection<Photo> Photos { get; set; }
+        public virtual ICollection<Photo> Photos { get; set; }
 
         /// <summary>
         /// Gets or sets the comments.
         /// </summary>
-        public ICollection<Comment> Comments { get; set; }
+        public virtual ICollection<Comment> Comments { get; set; }
     }
 }

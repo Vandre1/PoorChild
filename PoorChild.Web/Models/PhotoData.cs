@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
     using System.Web;
 
@@ -13,11 +14,12 @@
         /// <summary>
         /// Gets or sets the id.
         /// </summary>
-        public int Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public virtual Guid Id { get; set; }
 
         /// <summary>
         /// Gets or sets the data.
         /// </summary>
-        public byte[] Data { get; set; }
+        public virtual byte[] Data { get; set; }
     }
 }

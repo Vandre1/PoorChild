@@ -10,7 +10,7 @@
 
     using PoorChild.Web.Models;
 
-    public class DatabaseInitializer : DropCreateDatabaseIfModelChanges<DataContext>
+    public class DatabaseInitializer : DropCreateDatabaseAlways<DataContext>
     {
         protected override void Seed(DataContext context)
         {

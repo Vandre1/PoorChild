@@ -13,26 +13,26 @@
         /// <summary>
         /// Gets or sets the id.
         /// </summary>
-        public int Id { get; set; }
+        public virtual int Id { get; set; }
 
         /// <summary>
         /// Gets or sets the date time created.
         /// </summary>
-        public DateTime? DateTimeCreated { get; set; }
+        public virtual DateTime? DateTimeCreated { get; set; }
 
         /// <summary>
         /// Gets or sets the message.
         /// </summary>
-        public string Message { get; set; }
+        public virtual string Message { get; set; }
 
         /// <summary>
         /// Gets or sets the photos.
         /// </summary>
-        public ICollection<Photo> Photos { get; set; }
+        public virtual ICollection<Photo> Photos { get; set; }
 
         /// <summary>
         /// Gets or sets the sender device.
         /// </summary>
-        public Device SenderDevice { get; set; }
+        public virtual Device SenderDevice { get; set; }
     }
 }
